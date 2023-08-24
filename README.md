@@ -11,9 +11,9 @@ User Registration: New users can sign up by providing their first name, last nam
 
 User Login: Registered users can log in using their email address and password. The application verifies the provided credentials to ensure user security.
 
-Adding Notes: Logged-in users can create new notes by providing a title, content, and selecting the creation date. The notes are automatically saved to the database.
+Adding Notes: Logged-in users can create new notes by providing a title and content. The notes are automatically saved to the database.
 
-Viewing Notes: Users can view their notes on the dashboard. Notes are displayed in descending order of their creation date, showing the title, content, and creation date.
+Viewing Notes: Users can view their notes on the dashboard. Notes are displayed in descending order of their creation date, showing the title and creation date.
 
 Editing Notes: Users have the ability to edit their existing notes. They can modify the title and content of a note to keep their information up-to-date.
 
@@ -27,8 +27,6 @@ Searching Notes: Users can search for specific notes by entering keywords in the
 Technology Stack: The application is built using Java JSP with servlets used as auxiliary tools.
 
 Database: User information and notes are stored in a Apache Derby database, ensuring data integrity and security.
-
-Project Structure: The application follows a structured architecture, with separate components for controllers, services, models, and views.
 
 Security: The application is secured against unauthorized access. User authentication and authorization mechanisms are in place to protect user data.
 
