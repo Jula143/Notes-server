@@ -1,6 +1,11 @@
 # Student Notes Management Web Application
 This application provides students with a convenient way to manage their notes. Users can register, log in, add, view, edit, and delete notes. The application offers features such as sorting and searching notes to enhance the note-taking experience.
 
+
+Notes page             |  Note details
+:-------------------------:|:-------------------------:
+![](/server_notes_images/notes.png)  |  ![](/server_notes_images/note-details.png)
+
 # Features
 User Registration: New users can sign up by providing their first name, last name, email address, and password. User data is securely stored in the database.
 
